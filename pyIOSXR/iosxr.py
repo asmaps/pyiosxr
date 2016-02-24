@@ -16,7 +16,7 @@ import re
 import sys
 import difflib
 import pexpect
-from exceptions import XMLCLIError, InvalidInputError, TimeoutError, EOFError, IteratorIDError
+from .exceptions import XMLCLIError, InvalidInputError, TimeoutError, EOFError, IteratorIDError
 
 import xml.etree.ElementTree as ET
 
